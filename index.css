@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500PX;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.h-option {
+    border: 1px solid black;
+    border-radius: 47%;
+    margin: 1% 0 0 3%;
+    width: 3%;
+    padding: 5px 0 5px 0;
+
+}
+
+.header-text {
+    font-size: 15px;
+    font-family: Bahnschrift SemiBold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body {
+    /* border: 1px solid blue; */
+    margin-top: 7%;
+    margin-left: 25%;
+    /* width: 80%; */
+}
+
+.col {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* padding: 50px; */
+    /* border: 1px solid red; */
+}
+
+.card {
+    width: 17%;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 24px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid black;
+}
+.card:hover {
+    box-shadow : 2px 1px 2px 4px;
+    /* box-shadow:-4px 2px -2px green,  
+    4px -4px 2px -2px green,   
+    -4px 4px 2px -2px red,     
+    4px 4px 2px -2px red;      */
+}
+
+
+.card-head {
+    font-size: 15px;
+    font-family: Bahnschrift SemiBold;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 12px;
+    font-family: Bahnschrift SemiBold;
+    padding: 10px;
+}
+
+.card-icon {
+    /* border: 1px solid red; */
+    width: 50px;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.card-icon i {
+    font-size: 55px;
+}
+
+.cont1 {
+    display: flex;
+}
+
+.footer {
+    margin: 14%;
+    border-bottom: 3px solid black;
+}
+
+.input-txt {
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+}
+.footer {
+    display: flex;
+}
+
+#clock {
+    font-size: 40px;
+}
+.h{
+    border: 1px solid red;
+    
+}
+.h-row{
+    border: 1px solid green;
+}
+.h {
+    width: 30%;
+    padding-left: 30px;
+}
+
+.h-row {
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: rgb(67, 67, 67);
+    width: 70%;
+    padding: 20px;
+}
+
+.h-col {
+    display: flex;
+    margin: 0px;
+    margin-top: -20px;
+}
+
+.use {
+    padding-left: 40px;
+    font-family: Bahnschrift SemiBold;
+    color: white;
+    font-size: 22px;
+}
+
+.btn {
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 22px;
+    height: 20px;
+    padding: 7px;
+    font-family: Bahnschrift SemiBold;
+    color: white;
+    margin-left: 12px;
+}
